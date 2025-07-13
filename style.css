@@ -1,19 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 150px;
+  margin: 0 150px; /* no top margin */
+  padding-top: 50px; /* if you want spacing from top */
 }
-.raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  align-items: center;
-}
+
+
+
 header {
   width: 100%;
   height: 698px;
   background-image: url('Assets/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
   
 }
 
@@ -26,7 +33,7 @@ nav h3 {
 nav button {
   background-color: #4E47FF;
   color: #FFFFFF;
-  width: 132px;    
+  width: 132px;
   height: 48px;
   border-radius: 10px;
   border: none;
@@ -34,19 +41,70 @@ nav button {
   font-weight: 600;
   cursor: pointer;
 }
-header p{
-    font-size: 65px;
-    font-weight: bold;
-    color: #252432;
-    text-align: center;
-    
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: calc(698px - 100px);
+  gap: 30px;
 }
 
-.button-header{
-    background-color: #4E47FF;
-    color:#FFFFFF;
-    margin-left:  633px;
-    
+.header-content p {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  max-width: 900px;
 }
 
+.button-art {
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
+.action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+  margin: 100px 150px;
+}
+
+.text {
+  font-size: 24px;
+  color: #252432;
+}
+.pic {
+  max-width: 403px;
+  width: 100%;
+  aspect-ratio: 403 / 328; 
+  border-radius: 48px;
+  overflow: hidden;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.text-design {
+  color: #252432;
+  font-size: 18px;
+  margin: 23px 0; /* top and bottom spacing equal */
+  line-height: 1.6; /* for readability */
+}
+
+main h3{
+    font-weight:bold;
+    font-size: 42px;
+}
