@@ -243,7 +243,7 @@ main h3{
 .ger-ready{
 margin-top:208px  ;
 width: 100%;
-text-align: center;
+text-align: center; 
 }
 
 .Ready-title{
@@ -273,3 +273,57 @@ text-align: center;
   margin-top: 20px;
 }
 
+.form-section{
+  display: flex;
+  width: 1140px;
+  height: 632px;
+  margin: 100px 150px 15px ;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+}
+.get{
+  font-size: 97px;
+  font-weight: bold;
+  height: 232px;     
+  width: 528px;
+}
+
+
+
+.info{
+  margin-bottom: 20px;
+}
+
+.user-input{
+  width: 500px;
+}
+
+input[type="email"],
+input[type="text"],textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+   border: none;
+   background-color: #f9fbff; 
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05); 
+  color: #333; 
+
+}
+textarea{
+  padding: 20px 257px 85px 32px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #A0AEC0;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.5); 
+}
+.extend{
+  width: 100%;
+}
