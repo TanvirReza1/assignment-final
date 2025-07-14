@@ -18,8 +18,6 @@ nav {
   padding-top: 50px; 
 }
 
-
-
 header {
   width: 100%;
   height: 698px;
@@ -88,6 +86,7 @@ nav button {
   font-size: 24px;
   color: #252432;
 }
+
 .pic {
   max-width: 403px;
   width: 100%;
@@ -253,11 +252,12 @@ text-align: center;
 }
 
 .ready-sub-title{
-   font-size: smaller;
+   
    text-align: center;
    margin-top: 20px;
    margin-bottom: 20px;
    font-weight: 100;
+   color: #8987A1;
 }
 
 .center{
@@ -282,14 +282,13 @@ text-align: center;
   align-items: center;
   gap: 115px;
 }
+
 .get{
   font-size: 97px;
   font-weight: bold;
   height: 232px;     
   width: 528px;
 }
-
-
 
 .info{
   margin-bottom: 20px;
@@ -308,8 +307,8 @@ input[type="text"],textarea{
    background-color: #f9fbff; 
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05); 
   color: #333; 
-
 }
+
 textarea{
   padding: 20px 257px 85px 32px;
 }
@@ -324,6 +323,47 @@ textarea:focus {
   outline: none;
   box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.5); 
 }
+
 .extend{
   width: 100%;
+}
+
+.last-stage{
+  width: 1440px;
+  height: 428px;
+     
+}
+
+footer h2{
+  width: 292px;
+  height: 121px;
+  font-size: 100px;
+  color: rgba(78, 71, 255, 1);
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer p{
+  text-align: center;
+  width: 531px;
+  height: 48px;
+  margin: 0 auto;
+  color: #8987A1;
+}
+
+.links-adds{
+  display: flex;
+  justify-content: space-around;
+  width: 401px;
+  height: 24px;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+.links-adds a{
+  text-decoration: none;
+  color:  #8987A1 ;
+}
+
+.footer-section{
+  margin-top: 150px;
 }
